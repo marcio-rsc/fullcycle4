@@ -1,0 +1,12 @@
+
+.header-content {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.button-user-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

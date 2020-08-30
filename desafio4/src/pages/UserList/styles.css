@@ -1,0 +1,57 @@
+
+.header-content {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.userlist-container {
+text-align: center;
+}
+
+.userlist-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userlist-table thead tr th {
+  border: 1px solid black;
+  padding: 2px;
+  justify-content: center;
+}
+
+.userlist-table tbody tr td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.userlist-table tbody img {
+  border-radius: 1.0rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.footer-content-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content tbody tr td strong {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content tbody tr td a {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content tbody tr td p {
+  display: flex;
+  justify-content: center;
+}
