@@ -10,9 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - working-directory: /desafio5/app-fullcycle4-d5
+      
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    -  working-directory: /desafio5/app-fullcycle4-d5
  
     # Runs a single command using the runners shell
     - name: Install dependencies
