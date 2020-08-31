@@ -2,7 +2,6 @@ name: fullcycle4-desafio5-CI
 # This workflow is triggered on pull_request to the repository.
 on:
   pull_request:
-    branches: [ master ]
     paths:
     - 'desafio5/*'
 
