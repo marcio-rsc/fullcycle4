@@ -2,15 +2,13 @@ name: fullcycle4-desafio5-CI
 # This workflow is triggered on pull_request to the repository.
 on:
   pull_request:
-    paths:
-    - 'desafio5/*'
+   paths: "desafio5/*"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - working-directory: /desafio5/app-fullcycle4-d5
-      
+    #- working-directory: /desafio5/app-fullcycle4-d5
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
  
