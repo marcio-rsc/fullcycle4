@@ -1,10 +1,10 @@
 on: 
   push:
    paths:
-     - './desafio5/*'
+     - 'desafio5/**'
   pull_request:
    paths:
-     - './desafio5/*'
+     - 'desafio5/**'
 jobs:
   tests:
     name: run tests
