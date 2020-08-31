@@ -15,4 +15,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
+        working-directory: ./desafio5/app-fullcycle4-d5
       - run: npm test
+        working-directory: ./desafio5/app-fullcycle4-d5
