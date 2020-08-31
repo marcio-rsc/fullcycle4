@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('/about')
   getAbout(): string {
-    return 'FullCycle 4.0 [Desafio5] - CI';
+    return 'FullCycle 4.0 [Desafio5]-CI';
   }
 }
