@@ -1,0 +1,31 @@
+name: fullcycle4-desafio5-CI
+# This workflow is triggered on pull_request to the repository.
+on:
+  pull_request:
+    branches: [ master ]
+
+paths:
+- 'desafio5/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+ 
+    -  working-directory: /desafio5/app-fullcycle4-d5
+ 
+    # Runs a single command using the runners shell
+    - name: Install dependencies
+      run: npm install
+
+    # Runs a set of commands using the runners shell
+    - name: unit test
+    -  run: npm run test
+          
+    - name: e2e test
+      run: npm run test:e2e
+        
+    - name: test coverage
+      run: npm run test:cov
