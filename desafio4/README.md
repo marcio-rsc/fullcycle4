@@ -26,3 +26,5 @@ Faça um AJAX usando a biblioteca axios dentro do componente React de listagem d
 1-Executar o container: docker run -p 3000:3000 mrscoelho/fullcycle4_d04:latest
 
 2-Abrir em um browser a seguinte URL: http://localhost:3000/
+
+
